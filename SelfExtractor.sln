@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2000
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SelfExtractor", "SelfExtractor\SelfExtractor.csproj", "{A33BB923-BB16-4A04-B6F6-27E58045CA18}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sample", "Sample", "{240C5DC3-A347-4305-AA01-FC347EAC7498}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNetWrappers", "..\DotNetWrappers\DotNetWrappers\DotNetWrappers.csproj", "{019CF7F6-3425-403C-9234-A794BB9B6AD3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SelfExtractor.Tests", "SelfExtractor.Tests\SelfExtractor.Tests.csproj", "{26765563-7EFD-40FB-BA06-D30A5A1D54F8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SelfExtractorGeneratorSample", "Sample\SelfExtractorGeneratorSample\SelfExtractorGeneratorSample.csproj", "{59DE9AF8-D653-4286-8614-2481F07CCED7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SelfExtractorSample", "Sample\SelfExtractorSample\SelfExtractorSample.csproj", "{5FC3CCAA-49DB-44B4-B0DF-C5FC0C4142BF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A33BB923-BB16-4A04-B6F6-27E58045CA18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A33BB923-BB16-4A04-B6F6-27E58045CA18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A33BB923-BB16-4A04-B6F6-27E58045CA18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A33BB923-BB16-4A04-B6F6-27E58045CA18}.Release|Any CPU.Build.0 = Release|Any CPU
+		{019CF7F6-3425-403C-9234-A794BB9B6AD3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{019CF7F6-3425-403C-9234-A794BB9B6AD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{019CF7F6-3425-403C-9234-A794BB9B6AD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{019CF7F6-3425-403C-9234-A794BB9B6AD3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26765563-7EFD-40FB-BA06-D30A5A1D54F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26765563-7EFD-40FB-BA06-D30A5A1D54F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26765563-7EFD-40FB-BA06-D30A5A1D54F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26765563-7EFD-40FB-BA06-D30A5A1D54F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59DE9AF8-D653-4286-8614-2481F07CCED7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59DE9AF8-D653-4286-8614-2481F07CCED7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59DE9AF8-D653-4286-8614-2481F07CCED7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59DE9AF8-D653-4286-8614-2481F07CCED7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5FC3CCAA-49DB-44B4-B0DF-C5FC0C4142BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FC3CCAA-49DB-44B4-B0DF-C5FC0C4142BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FC3CCAA-49DB-44B4-B0DF-C5FC0C4142BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FC3CCAA-49DB-44B4-B0DF-C5FC0C4142BF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{59DE9AF8-D653-4286-8614-2481F07CCED7} = {240C5DC3-A347-4305-AA01-FC347EAC7498}
+		{5FC3CCAA-49DB-44B4-B0DF-C5FC0C4142BF} = {240C5DC3-A347-4305-AA01-FC347EAC7498}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9D339F7E-0E81-4F2A-A74B-6CD2A103DDF0}
+	EndGlobalSection
+EndGlobal
